@@ -1,0 +1,83 @@
+﻿body {
+    width: 60%;
+    margin: auto;
+}
+
+h1, h2{
+    display:flex;
+    justify-content:center;
+}
+#womenHeader{
+    grid-area: womenHeader;
+}
+#menHeader {
+    grid-area: menHeader;
+}
+
+.rooms {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(8, 70px);
+    grid-gap: 10px;
+    grid-template-areas:
+        "womenHeader womenHeader"
+        "room5 room6"
+        "room4 room7"
+        "room3 room8"
+        "room2 room9"
+        "room1 room10"
+        "menHeader menHeader"
+        "room11 room12"
+}
+
+#room5 {
+    grid-area: room5;
+    background-color: green;
+}
+#room6 {
+    grid-area: room6;
+    background-color: green;
+}
+#room4 {
+    grid-area: room4;
+    background-color: green;
+}
+#room7 {
+    grid-area: room7;
+    background-color: green;
+}
+#room3 {
+    grid-area: room3;
+    background-color: green;
+}
+#room8 {
+    grid-area: room8;
+    background-color: green;
+}
+#room2 {
+    grid-area: room2;
+    background-color: green;
+}
+#room9 {
+    grid-area: room9;
+    background-color: green;
+}
+#room1 {
+    grid-area: room1;
+    background-color: green;
+}
+#room10 {
+    grid-area: room10;
+    background-color: green;
+}
+
+#room11 {
+    grid-area: room11;
+    background-color: green;
+}
+#room12 {
+    grid-area: room12;
+    background-color: green;
+}
+
+
